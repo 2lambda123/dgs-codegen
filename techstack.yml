@@ -1,0 +1,271 @@
+repo_name: 2lambda123/dgs-codegen
+report_id: 6243f13a4a49abf130e1901736dd113a
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-09T06:59:32+00:00'
+requested_by: 2lambda123
+provider: github
+branch: master
+detected_tools_count: 22
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/2lambda123/dgs-codegen
+  detection_source: Repo Metadata
+- name: Kotlin
+  description: Statically typed Programming Language targeting JVM and JavaScript
+  website_url: https://kotlinlang.org/
+  open_source: true
+  hosted_saas: true
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3750/pCfEzr6L.png
+  detection_source_url: https://github.com/2lambda123/dgs-codegen
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/2lambda123/dgs-codegen
+  detection_source: Repo Metadata
+- name: Jackson
+  description: A suite of data-processing tools for Java
+  website_url: https://github.com/FasterXML/jackson
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://ucarecdn.com/d8ec839d-4d66-4c08-8297-9e2be82f6b75/
+  detection_source_url: https://github.com/2lambda123/dgs-codegen/blob/master/graphql-dgs-codegen-core/dependencies.lock
+  detection_source: graphql-dgs-codegen-core/dependencies.lock
+  last_updated_by: ksrinivasan
+  last_updated_on: 2023-01-19 00:30:33.000000000 Z
+- name: GraphQL
+  description: A data query language and runtime
+  website_url: http://graphql.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Query Languages
+  image_url: https://img.stackshare.io/service/3820/12972006.png
+  detection_source_url: https://github.com/2lambda123/dgs-codegen/blob/master/graphql-dgs-codegen-core/src/integTest/kotlin/com/netflix/graphql/dgs/codegen/cases/constantsForInputTypes/schema.graphql
+  detection_source: graphql-dgs-codegen-core/src/integTest/kotlin/com/netflix/graphql/dgs/codegen/cases/constantsForInputTypes/schema.graphql
+  last_updated_by: Matt Bossenbroek
+  last_updated_on: 2022-05-18 17:38:55.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/2lambda123/dgs-codegen
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/dgs-codegen
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/2lambda123/dgs-codegen/blob/master/.github/workflows/ci.yml
+  detection_source: ".github/workflows/ci.yml"
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-11-20 00:42:48.000000000 Z
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/2lambda123/dgs-codegen/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Patrick Strawderman
+  last_updated_on: 2023-11-16 21:56:05.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/dgs-codegen/blob/master/scripts/requirements.txt
+  detection_source: scripts/requirements.txt
+  last_updated_by: Bernardo Gomez Palacio
+  last_updated_on: 2021-04-22 03:03:49.000000000 Z
+- name: SLF4J
+  description: Simple logging facade for Java
+  website_url: http://slf4j.org/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2805/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/2lambda123/dgs-codegen/blob/master/graphql-dgs-codegen-core/build.gradle
+  detection_source: graphql-dgs-codegen-core/build.gradle
+  last_updated_by: Kavitha Srinivasan
+  last_updated_on: 2020-12-01 19:07:53.000000000 Z
+- name: com.fasterxml.jackson.core:jackson-annotations
+  description: Core annotations used for value types
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/dgs-codegen/blob/master/graphql-dgs-codegen-core/build.gradle
+  detection_source: graphql-dgs-codegen-core/build.gradle
+  last_updated_by: Patrick Strawderman
+  last_updated_on: 2023-11-20 17:25:48.000000000 Z
+- name: com.fasterxml.jackson.core:jackson-databind
+  description: 'General data-binding functionality for Jackson: works on core streaming
+    API'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/dgs-codegen/blob/master/graphql-dgs-codegen-core/build.gradle
+  detection_source: graphql-dgs-codegen-core/build.gradle
+  last_updated_by: Patrick Strawderman
+  last_updated_on: 2023-11-20 17:25:48.000000000 Z
+- name: com.graphql-java:graphql-java
+  description: GraphqL Java
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/dgs-codegen/blob/master/graphql-dgs-codegen-core/build.gradle
+  detection_source: graphql-dgs-codegen-core/build.gradle
+  last_updated_by: Patrick Strawderman
+  last_updated_on: 2023-11-20 17:25:48.000000000 Z
+- name: org.jetbrains.kotlin:kotlin-compiler
+  description: Kotlin Compiler
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/dgs-codegen/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Patrick Strawderman
+  last_updated_on: 2023-11-16 21:56:05.000000000 Z
+- name: org.jetbrains.kotlin:kotlin-gradle-plugin
+  description: 'Null'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/dgs-codegen/blob/master/graphql-dgs-codegen-gradle/build.gradle
+  detection_source: graphql-dgs-codegen-gradle/build.gradle
+  last_updated_by: Patrick Strawderman
+  last_updated_on: 2023-11-16 17:58:47.000000000 Z
+- name: org.jetbrains.kotlin:kotlin-reflect
+  description: Kotlin Full Reflection Library
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/dgs-codegen/blob/master/graphql-dgs-codegen-shared-core/build.gradle
+  detection_source: graphql-dgs-codegen-shared-core/build.gradle
+  last_updated_by: Patrick Strawderman
+  last_updated_on: 2021-10-31 21:42:13.000000000 Z
+- name: org.junit.jupiter:junit-jupiter
+  description: Module "junit-jupiter" of JUnit 5
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/dgs-codegen/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Patrick Strawderman
+  last_updated_on: 2023-11-16 21:56:05.000000000 Z
+- name: org.junit.jupiter:junit-jupiter-params
+  description: Module "junit-jupiter-params" of JUnit 5
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/dgs-codegen/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Patrick Strawderman
+  last_updated_on: 2023-11-16 21:56:05.000000000 Z
+- name: org.slf4j:slf4j-api
+  description: The slf4j API
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/dgs-codegen/blob/master/graphql-dgs-codegen-core/build.gradle
+  detection_source: graphql-dgs-codegen-core/build.gradle
+  last_updated_by: Patrick Strawderman
+  last_updated_on: 2023-11-16 17:58:47.000000000 Z
+- name: GitPython
+  description: Python Git Library
+  package_url: https://pypi.org/project/GitPython
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19867/default_bd86f80ade48cfe191d5781a2efa0e66fa22163a.png
+  detection_source_url: https://github.com/2lambda123/dgs-codegen/blob/master/scripts/requirements.txt
+  detection_source: scripts/requirements.txt
+  last_updated_by: Bernardo Gomez Palacio
+  last_updated_on: 2021-04-22 03:03:49.000000000 Z
+- name: PyYAML
+  description: YAML parser and emitter for Python
+  package_url: https://pypi.org/project/PyYAML
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19829/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source_url: https://github.com/2lambda123/dgs-codegen/blob/master/scripts/requirements.txt
+  detection_source: scripts/requirements.txt
+  last_updated_by: Bernardo Gomez Palacio
+  last_updated_on: 2021-04-22 03:03:49.000000000 Z
